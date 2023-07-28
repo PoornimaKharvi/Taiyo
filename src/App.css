@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.cardstyle {
+  transition: ease-in 0.3s; /* Add transition property with ease-out timing function */
+  width: 5rem ;
+height:5rem;
+padding: 13%;
+}
+
+.mainDiv{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 45px;
+    grid-column-gap: 35px;
+    width: 90%;
+    margin-top: 37px;
+    margin-left: 6%;
+}
